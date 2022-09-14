@@ -1,0 +1,27 @@
+{
+    "name": "brendfoni/product-rating",
+    "description": "Brendfoni Product Rating",
+    "type": "library",
+    "license": "Brendfoni",
+    "authors": [
+        {
+            "name": "Brendfoni",
+            "email": "developer@brendfoni.com.tr"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Brendfoni\\ProductRating\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Brendfoni\\ProductRating\\ProductRatingServiceProvider"
+            ]
+        }
+    }
+}
